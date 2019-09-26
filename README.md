@@ -67,3 +67,21 @@ Same values of flex-direction is row, but then behaviour is based in inverted ax
 
 - Unify flex-grow and flex-shrink in one attribute.
 - `flex: 1 0;` will set flex-grow: 1 and flex-shrink: 0
+
+## Wrap de Itens - Quebra de linhas
+
+As default, flexbox items always fit in one line. However, flex-wrap attribute can change it.
+
+### flex-wrap
+
+Wrap a line if the elements dont fit in the first row.
+
+### align-content
+
+align elements when there are more than one line. It's have the same values as justify-content.
+
+## Order
+
+Used in responsive layouts. When elements change the order on resize.
+
+order attibute set a number that represents order, start from 0.

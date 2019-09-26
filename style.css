@@ -9,9 +9,21 @@ body,
 }
 
 .box {
-  width: 300px;
+  width: 200px;
   height: 60px;
   margin: 5px;
   background: #f00;
-  flex: 1 0;
+}
+
+.red {
+  order: 1;
+}
+.green {
+  background: #0f0;
+  order: 2;
+}
+
+.blue {
+  background: #00f;
+  order: 0;
 }
